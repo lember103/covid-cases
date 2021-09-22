@@ -18,5 +18,4 @@ public class CovidApiService {
         return response.getBody();
     }
 
-
 }

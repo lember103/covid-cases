@@ -10,6 +10,15 @@ public class CovidApiCountryPerDay {
     @JsonProperty("Confirmed")
     private long confirmed;
 
+    public CovidApiCountryPerDay() {
+        super();
+    }
+
+    public CovidApiCountryPerDay(String date, long confirmed) {
+        super();
+        this.date = date;
+        this.confirmed = confirmed;
+    }
 
     public String getDate() {
         return date;
